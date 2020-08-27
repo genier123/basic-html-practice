@@ -1,40 +1,86 @@
 html{
     
-    border: solid;
-    border-color: black;
+        border: solid;
+        border-color: black;
+
 }
 
-.header {
-    padding: 10px;
-    text-align: center;
-    background: #c4c5c5;
-    color: white;
-    font-size: 30px;
-    border: solid;
-    border-color: black;
-  }
+.header{
 
-  .footer{
+        text-align: center;
+        background: #c4c5c5;
+        color: rgb(0, 0, 0);
+        font-size: 50px;
+        border: solid;
+        border-color: black;
+    
+}
 
-    padding: 10px;
-    text-align: center;
-    background: #c4c5c5;
-    color: rgb(0, 0, 0);
-    font-size: 16px;
-    border: solid;
-    border-color: black;
-  }
+.footer{
 
-  span {
-      color: black;
-      font-family: Arial, Helvetica, sans-serif;
-      align-content: center;
-  }
+        padding: 10px;
+        text-align: center;
+        background: #c4c5c5;
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        border: solid;
+        border-color: black;
+        bottom: 0px;
+}
 
-  #leftarrow{
-      float left: 10px;
-  }
+span{
 
-  #rightarrow{
-      float left: 30px;
-  }
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        align-content: center;
+
+}
+
+#leftarrow{
+ 
+        position: absolute;
+        left: 50px;
+        top: 15px;
+
+}
+
+#rightarrow{
+
+        position: absolute;
+        left: 150px;
+        top: 15px;
+    
+}
+
+#cancelbutton{
+
+        position: absolute;
+        left: 250px;
+        top: 15px;
+
+}
+
+#home{
+
+        position: absolute;
+        left: 350px;
+        top: 15px;
+
+}
+
+#search{
+
+        position: absolute;
+        right: 300px;
+        top: 15px;        
+
+}
+
+#searchbar{
+
+        position: absolute;
+        right: 150px;
+        top: 5px;
+
+}
+
