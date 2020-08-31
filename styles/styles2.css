@@ -1,0 +1,109 @@
+body{
+
+    border: solid;
+    border-color: black;
+    left: 15%;
+
+}
+
+#header{
+
+    text-align: center;
+    background: #c4c5c5;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    border-bottom: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.footer{
+    
+    text-align: center;
+    background: #c4c5c5;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border-top: solid;
+    border-color: black;
+}
+
+#leftarrow{
+    
+
+    top: 5px;
+
+}
+
+#rightarrow{
+
+
+    top: 5px;
+
+}
+
+#cancelbutton{
+
+
+    top: 5px;
+
+}
+
+
+#home{
+
+
+    top: 5px;
+
+}
+
+#title{
+
+
+    top: 5px;
+}
+
+
+#searchfield{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+#magglass{
+
+    position: absolute;
+    top: 20%;
+    left: 5%;
+
+
+}
+
+h3{
+
+    margin-left: 20%;
+    
+}
+
+.alignment1{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+}
+.img1 {
+
+    text-align: center;
+
+}
+
+#caption1{
+
+    margin-left:25%;
+
+}
