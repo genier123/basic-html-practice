@@ -65,15 +65,20 @@ body{
         top: 5px;
 }
 
-#search{
-
-
-
-}
 
 #searchfield{
 
-
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        position: relative;
 }
 
+#magglass{
 
+        position: absolute;
+        top: 20%;
+        left: 5%;
+
+
+}
